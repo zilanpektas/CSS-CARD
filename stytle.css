@@ -1,0 +1,88 @@
+
+
+/***********************************************CSS FLEXBOX VE POSITION ALIŞTIRMASI**************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(182, 182, 174);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.image1,
+.image2,
+.image3 {
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.image1 {
+  background: url(./İMAGES/almanya.jpeg);
+  background-size: cover;
+}
+
+.image2 {
+  background: url(./İMAGES/belçika.jpeg);
+  background-size: cover;
+}
+
+.image3 {
+  background: url(./İMAGES/hollanda.jpeg);
+  background-size: cover;
+}
+
+h3 {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  width: 90px;
+  height: 50px;
+  margin-left: 10px;
+  background-color: rgb(133, 129, 112);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  background-color: rgb(145, 64, 64);
+  border-radius: 999px;
+  top: -10px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+ 
+}
